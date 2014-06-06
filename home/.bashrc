@@ -68,3 +68,5 @@ alias dstat_vmstat='sudo dstat -v'
 function pck() { FIRST_LETTER=; REST_LETTER=; PS_ARG='['']'; ps aux | grep ; }
 
 function mck() { ps alx | awk '{printf ("%d\t%s\n", ,3)}' | sort -nr | head -10; }
+
+# comment added.
