@@ -20,4 +20,4 @@ first, git clone this repo to "${GITHUB_REPO_DIR}"
 
 - Mac OS X
 
-$ cd ~ && ln -s "${GITHUB_REPO_DIR}"/dotfiles/tmux_2.2_macosx.conf ./.tmux.conf
+$ cd ~ && ln -s "${GITHUB_REPO_DIR}"/dotfiles/.tmux_2.2_macosx.conf ./.tmux.conf
