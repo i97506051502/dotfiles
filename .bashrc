@@ -97,6 +97,10 @@ function chpwd() {
     echo -ne "\033]0;$(pwd | rev | awk -F \/ '{ print "/"$1"/"$2 }'| rev)\007"
 }
 
+function show_path(){
+    echo -e ${PATH//:/'\n'}
+}
+
 # function ssh() {
 #     local window_name=$(tmux display -p '#{window_name}')
 #     command ssh $@
